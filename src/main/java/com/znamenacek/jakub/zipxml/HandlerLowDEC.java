@@ -7,7 +7,7 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 @Getter
-public class SAXHandler extends DefaultHandler {
+public class HandlerLowDEC extends DefaultHandler {
     // List to hold Employees object
     private Long lowDEC = null;
 
